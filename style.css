@@ -57,3 +57,13 @@ main {
     color: #999999;
 }
 
+button {
+    background-color: #ff4a75;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
