@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
+    line-height: 1.6;
 }
 
 a {
@@ -15,7 +16,7 @@ a:visited {
 
 header {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 header h1 {
@@ -23,47 +24,89 @@ header h1 {
     display: inline-block;
     vertical-align: middle;
     margin-right: 15px;
+    font-size: 2.5rem;
+    text-transform: lowercase;
 }
 
 header img {
     vertical-align: middle;
+    border-radius: 8px;
 }
 
 header p {
     color: #7b68ee;
     font-style: italic;
+    margin-top: 15px;
 }
 
 main {
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
 .episodio {
     background-color: #ffffff;
     border: 2px solid #ffb6c1;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 4px;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(255, 182, 193, 0.2);
+}
+
+.episodio img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 15px;
 }
 
 .episodio h2 {
     color: #ff4a75;
     margin-top: 0;
+    margin-bottom: 5px;
 }
 
 .autor {
     font-size: 14px;
     color: #999999;
+    margin-bottom: 15px;
+}
+
+.artigo-fonte {
+    font-size: 13px;
+    color: #888888;
+    background-color: #f9f9f9;
+    padding: 8px 12px;
+    border-left: 3px solid #7b68ee;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 0 4px 4px 0;
 }
 
 button {
+    background-color: #ffffff;
+    color: #ff4a75;
+    border: 2px solid #ff4a75;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #fff0f3;
+}
+
+button.ativo {
     background-color: #ff4a75;
     color: white;
-    border: none;
-    padding: 8px 12px;
-    border-radius: 4px;
-    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(255, 74, 117, 0.4);
 }
+
+
+
+
 
 
