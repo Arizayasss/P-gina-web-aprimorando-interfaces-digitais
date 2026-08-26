@@ -1,0 +1,59 @@
+body {
+    background-color: #ffeef2;
+    color: #4a4a4a;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+a {
+    color: #ff4a75;
+}
+a:visited {
+    color: #7b68ee;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #ff4a75;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+header img {
+    vertical-align: middle;
+}
+
+header p {
+    color: #7b68ee;
+    font-style: italic;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.episodio {
+    background-color: #ffffff;
+    border: 2px solid #ffb6c1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.episodio h2 {
+    color: #ff4a75;
+    margin-top: 0;
+}
+
+.autor {
+    font-size: 14px;
+    color: #999999;
+}
+
